@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwanath Potdar | Java Full-Stack Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="bg-elements">
+        <div class="bg-circle circle-1"></div>
+        <div class="bg-circle circle-2"></div>
+        <div class="bg-circle circle-3"></div>
+        <div class="bg-square square-1"></div>
+        <div class="bg-square square-2"></div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div id="particles-js"></div>
+
+    <header class="animate__animated animate__fadeInDown">
+        <div class="container">
+            <h1 class="animate__animated animate__fadeInLeft">Vishwanath Potdar</h1>
+            <p class="subtitle animate__animated animate__fadeInRight">Java Full-Stack Developer</p>
+            <div class="theme-toggle animate__animated animate__fadeIn">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-switch">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <nav class="animate__animated animate__fadeIn">
+        <div class="container">
+            <ul>
+                <li><a href="#about" class="nav-link"><span>About</span></a></li>
+                <li><a href="#skills" class="nav-link"><span>Skills</span></a></li>
+                <li><a href="#experience" class="nav-link"><span>Experience</span></a></li>
+                <li><a href="#projects" class="nav-link"><span>Projects</span></a></li>
+                <li><a href="#education" class="nav-link"><span>Education</span></a></li>
+                <li><a href="#contact" class="nav-link"><span>Contact</span></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="card animate__animated">
+            <div class="card-border"></div>
+            <h2 class="section-title"><span>About Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Results-driven Java Full-Stack Developer with a strong foundation in Core & Advanced Java and hands-on experience in Spring Boot, Hibernate, and Microservices.</p>
+                    <p>Proficient in developing scalable web applications with React.js, HTML, CSS, and Bootstrap while ensuring seamless backend integration with MySQL, MongoDB, and Oracle SQL.</p>
+                    <p>Adept at problem-solving, performance optimization, and designing robust software solutions. Passionate about building innovative applications, collaborating in dynamic teams, and continuously expanding technical expertise.</p>
+                </div>
+                <div class="about-image">
+                    <div class="image-placeholder">
+                        <img src="assets/images/cropped_image (1).png" alt="Vishwanath Potdar" class="profile-image">
+
+                    </div>
+                    <div class="tech-icons">
+                        <i class="fab fa-java" title="Java"></i>
+                        <i class="fab fa-js" title="JavaScript"></i>
+                        <i class="fab fa-react" title="React"></i>
+                        <i class="fas fa-database" title="Databases"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="animate__animated">
+            <h2 class="section-title"><span>Technical Skills</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-skill="programming">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Programming</h3>
+                    <ul>
+                        <li><span>Java</span></li>
+                        <li><span>JavaScript</span></li>
+                        <li><span>C++</span></li>
+                        <li><span>C</span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category" data-skill="web">
+                    <div class="skill-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>Web Technologies</h3>
+                    <ul>
+                        <li><span>HTML5</span></li>
+                        <li><span>CSS3</span></li>
+                        <li><span>React</span></li>
+                        <li><span>Bootstrap</span></li>
+                        <li><span>Node.js</span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category" data-skill="database">
+                    <div class="skill-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Databases</h3>
+                    <ul>
+                        <li><span>MySQL</span></li>
+                        <li><span>MongoDB</span></li>
+                        <li><span>Oracle SQL</span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category" data-skill="frameworks">
+                    <div class="skill-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Frameworks</h3>
+                    <ul>
+                        <li><span>Hibernate</span></li>
+                        <li><span>Spring, Spring Boot</span></li>
+                        <li><span>Spring MVC</span></li>
+                        <li><span>Spring Security</span></li>
+                        <li><span>Spring Cloud</span></li>
+                        <li><span>Microservices</span></li>
+                        <li><span>Thymeleaf</span></li>
+                        <li><span>JSP, Servlets</span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category" data-skill="tools">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h3>Tools & IDEs</h3>
+                    <ul>
+                        <li><span>Eclipse</span></li>
+                        <li><span>IntelliJ IDEA</span></li>
+                        <li><span>Visual Studio Code</span></li>
+                        <li><span>Git, GitHub</span></li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category" data-skill="other">
+                    <div class="skill-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Other</h3>
+                    <ul>
+                        <li><span>JDBC</span></li>
+                        <li><span>Object-Oriented Programming (OOP)</span></li>
+                    <li><span>REST APIs</span></li>
+                        <li><span>Microservices Architecture</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="animate__animated">
+            <h2 class="section-title"><span>Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">July 2024 - April 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-company">Cyber Success Training Institute</div>
+                        <p class="position">Apprenticeship in Java Full-Stack Development</p>
+                        <ul class="timeline-list">
+                            <li><span>Undergoing training as part of an internship</span></li>
+                            <li><span>Learning Java, Spring Boot, Hibernate, REST APIs</span></li>
+                            <li><span>Frontend (HTML, CSS, JavaScript) and Database Management</span></li>
+                            <li><span>Hands-on experience through real-world projects</span></li>
+                            <li><span>Developing skills in debugging, deployment, and version control</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Add more timeline items as needed -->
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="animate__animated">
+            <h2 class="section-title"><span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Login and Registration System</h3>
+                        <p class="project-subtitle">Tech Workshops and Seminars</p>
+                    </div>
+                    <div class="project-image">
+                        <div class="image-overlay"></div>
+                        <i class="fas fa-sign-in-alt"></i>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Spring Boot</span>
+                        <span>Thymeleaf</span>
+                        <span>MySQL</span>
+                        <span>Spring Security</span>
+                    </div>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> Web-based system for managing events</li>
+                        <li><i class="fas fa-check-circle"></i> Secure user authentication</li>
+                        <li><i class="fas fa-check-circle"></i> Thymeleaf for dynamic frontend</li>
+                        <li><i class="fas fa-check-circle"></i> JPA/Hibernate integration</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time event scheduling</li>
+                    </ul>
+                    <div class="project-actions">
+                        <button class="btn btn-demo"><i class="fas fa-eye"></i> View Demo</button>
+                        <button class="btn btn-code"><i class="fab fa-github"></i> View Code</button>
+                    </div>
+                </div>
+                 <div class="project-card">
+            <div class="project-badge">Full-Stack</div>
+            <div class="project-header">
+                <h3>Interactive Portfolio Website</h3>
+                <p class="project-subtitle">Personal Developer Showcase</p>
+            </div>
+            <div class="project-image">
+                <div class="image-overlay"></div>
+                <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="tech-stack">
+                <span>Spring Boot</span>
+                <span>React/HTML/CSS</span>
+                <span>MySQL</span>
+                <span>REST API</span>
+                <span>Particles.js</span>
+            </div>
+            <ul class="project-features">
+                <li><i class="fas fa-check-circle"></i> Fully responsive design with dark/light mode</li>
+                <li><i class="fas fa-check-circle"></i> Contact form with backend integration</li>
+                <li><i class="fas fa-check-circle"></i> Animated UI with interactive elements</li>
+                <li><i class="fas fa-check-circle"></i> Dynamic project showcase section</li>
+                <li><i class="fas fa-check-circle"></i> Database storage for contact submissions</li>
+            </ul>
+            <div class="project-actions">
+                <button class="btn btn-demo" onclick="window.location.href='#'">
+                    <i class="fas fa-eye"></i> Live Demo
+                </button>
+                <button class="btn btn-code" onclick="window.location.href='https://github.com/yourusername/portfolio'">
+                    <i class="fab fa-github"></i> Source Code
+                </button>
+            </div>
+        </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Inventory and Sales Management</h3>
+                        <p class="project-subtitle">Business Solution</p>
+                    </div>
+                    <div class="project-image">
+                        <div class="image-overlay"></div>
+                        <i class="fas fa-warehouse"></i>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Hibernate</span>
+                        <span>MySQL</span>
+                        <span>Java</span>
+                        <span>Spring</span>
+                    </div>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> Inventory tracking system</li>
+                        <li><i class="fas fa-check-circle"></i> Sales management</li>
+                        <li><i class="fas fa-check-circle"></i> Real-time reporting</li>
+                        <li><i class="fas fa-check-circle"></i> Automated stock updates</li>
+                        <li><i class="fas fa-check-circle"></i> REST APIs for data interaction</li>
+                    </ul>
+                    <div class="project-actions">
+                        <button class="btn btn-demo"><i class="fas fa-eye"></i> View Demo</button>
+                        <button class="btn btn-code"><i class="fab fa-github"></i> View Code</button>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>ThreadAura Clothing Center</h3>
+                        <p class="project-subtitle">E-Commerce Clothing Store</p>
+                    </div>
+                    <div class="project-image">
+                        <div class="image-overlay"></div>
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <div class="tech-stack">
+                        <span>Spring Boot</span>
+                        <span>React</span>
+                        <span>MySQL</span>
+                        <span>REST APIs</span>
+                    </div>
+                    <ul class="project-features">
+                        <li><i class="fas fa-check-circle"></i> Full-stack e-commerce platform</li>
+                        <li><i class="fas fa-check-circle"></i> Cart management</li>
+                        <li><i class="fas fa-check-circle"></i> Order processing</li>
+                        <li><i class="fas fa-check-circle"></i> Stripe payment integration</li>
+                    </ul>
+                    <div class="project-actions">
+                        <button class="btn btn-demo"><i class="fas fa-eye"></i> View Demo</button>
+                        <button class="btn btn-code"><i class="fab fa-github"></i> View Code</button>
+                    </div>
+                </div>
+                <div class="project-card">
+            <div class="project-header">
+                <h3>Healthcare Management System</h3>
+                <p class="project-subtitle">Patient Records & Appointment</p>
+            </div>
+            <div class="project-image">
+                <div class="image-overlay"></div>
+                <i class="fas fa-hospital"></i>
+            </div>
+            <div class="tech-stack">
+                <span>Spring Boot</span>
+                <span>REST API</span>
+                <span>MySQL</span>
+                
+            </div>
+            <ul class="project-features">
+                <li><i class="fas fa-check-circle"></i> Patient record management system</li>
+                <li><i class="fas fa-check-circle"></i> Doctor appointment scheduling</li>
+                <li><i class="fas fa-check-circle"></i> RESTful API endpoints</li>
+                <li><i class="fas fa-check-circle"></i> Prescription management module</li>
+            </ul>
+            <div class="project-actions">
+                <button class="btn btn-demo"><i class="fas fa-eye"></i> View Demo</button>
+                <button class="btn btn-code"><i class="fab fa-github"></i> View Code</button>
+            </div>
+        </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="card animate__animated">
+            <div class="card-border"></div>
+            <h2 class="section-title"><span>Education</span></h2>
+            <div class="education-item">
+                <div class="education-icon">
+                    <i class="fas fa-graduation-cap"></i>
+                </div>
+                <div class="education-content">
+                    <h3>B.Tech in Electronics & Telecommunication Engineering</h3>
+                    <p class="institution">Department of Technology, Shivaji University, Kolhapur</p>
+                    <p class="duration">2020 – 2024 | CGPA: 7.88</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="animate__animated">
+            <h2 class="section-title"><span>Certifications</span></h2>
+            <div class="certs-grid">
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Java SE</h3>
+                        <p>Completed</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Java Full Stack Development</h3>
+                        <p>Cyber Success Training</p>
+                    </div>
+                </div>
+                <div class="cert-item">
+                    <div class="cert-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>C++</h3>
+                        <p>Completed</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="card animate__animated">
+    <div class="card-border"></div>
+    <h2 class="section-title"><span>Contact Me</span></h2>
+    <div class="contact-grid">
+        <!-- Contact Information (Left Side) -->
+        <div class="contact-info">
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Email</h3>
+                    <a href="mailto:vishwanathpotdar100@gmail.com" class="contact-link">vishwanathpotdar100@gmail.com</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>Phone</h3>
+                    <a href="tel:+919373071815" class="contact-link">+91 9373071815</a>
+                </div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-icon">
+                    <i class="fab fa-linkedin"></i>
+                </div>
+                <div class="contact-details">
+                    <h3>LinkedIn</h3>
+                    <a href="http://www.linkedin.com/in/vishwanath-potdar-2b8b97226" 
+                       target="_blank" 
+                       class="contact-link">
+                       linkedin.com/in/vishwanath-potdar
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Form (Right Side) -->
+        <form id="contactForm" class="contact-form" novalidate>
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" 
+                       id="name" 
+                       name="name" 
+                       placeholder="Enter your name" 
+                       required
+                       minlength="3"
+                       maxlength="50">
+                <div class="error-message" id="name-error"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" 
+                       id="email" 
+                       name="email" 
+                       placeholder="Enter your email" 
+                       required
+                       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                <div class="error-message" id="email-error"></div>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" 
+                          name="message" 
+                          rows="5" 
+                          placeholder="Enter your message" 
+                          required
+                          minlength="10"
+                          maxlength="500"></textarea>
+                <div class="error-message" id="message-error"></div>
+            </div>
+            
+            <div class="form-footer">
+                <button type="submit" class="btn btn-submit" id="submitBtn">
+                    <span>Send Message</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+                <div id="form-status" class="form-status"></div>
+            </div>
+        </form>
+    </div>
+</section>
+    <footer class="animate__animated animate__fadeInUp">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Vishwanath Potdar. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank" class="social-link" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" target="_blank" class="social-link" title="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="http://www.linkedin.com/in/vishwanath-potdar-2b8b97226" target="_blank" class="social-link" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" target="_blank" class="social-link" title="CodePen"><i class="fab fa-codepen"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="animate__animated">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="/js/script.js"></script>
+</body>
+</html>
