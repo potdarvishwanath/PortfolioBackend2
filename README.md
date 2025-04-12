@@ -57,23 +57,9 @@ MySQL (or your database of choice)
 
 Lombok
 
+Project Structure
+![image](https://github.com/user-attachments/assets/24ecf7f4-b7a4-4d2d-9da0-41cc1c7378f5)
 
-portfolio/
-├── frontend/
-│   ├── index.html          # Main HTML file
-│   ├── css/
-│   │   └── styles.css      # All CSS styles
-│   └── js/
-│       └── script.js       # All JavaScript functionality
-└── backend/
-    ├── src/main/java/com/vishwanathpotdar/
-    │   ├── config/         # Configuration classes
-    │   ├── controller/      # REST controllers
-    │   ├── entity/          # JPA entities
-    │   ├── repository/      # Spring Data repositories
-    │   ├── service/         # Business logic
-    │   └── PortfolioBackend2Application.java  # Main class
-    └── src/main/resources/  # Application properties
 
 
     
